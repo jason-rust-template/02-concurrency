@@ -1,4 +1,4 @@
-use anyhow::{anyhow, Ok, Result};
+use anyhow::{anyhow, Result};
 use std::{sync::mpsc, thread, time::Duration};
 
 const NUM_PRODUCERS: usize = 4;
