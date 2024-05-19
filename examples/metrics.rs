@@ -23,8 +23,8 @@ fn main() -> Result<()> {
     }
 
     loop {
-        thread::sleep(Duration::from_millis(5));
-        println!("{:?}", metrics.snapshot());
+        thread::sleep(Duration::from_millis(2000));
+        println!("{}", metrics);
     }
 }
 
